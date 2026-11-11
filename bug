@@ -1,0 +1,22 @@
+Adding duplicate HugsLib.UpdateFeatureDef name: BigLittleModPatch_6_1_1
+    at Verse.DefDatabase`1.Add(T def) [0x13]
+    at Verse.DefDatabase`1.Add(IEnumerable`1 defs) [0x9]
+    at HugsLib.News.UpdateFeatureDefLoader.ReinitUpdateFeatureDefDatabase(IEnumerable`1 defs) [0x7]
+    at HugsLib.News.UpdateFeatureDefLoader.ResolveAndInjectUpdateFeatureDefs(IEnumerable`1 loadedNodes) [0xE]
+    at HugsLib.News.UpdateFeatureManager+<>c__DisplayClass13_0.<OnEarlyInitialize>g__ResolveAndInjectNewsDefs|0() [0x4C]
+    at ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches.RunDeferredAction(Action action, String label, Boolean timed, Func`2 findOwner, String categoryKey) [0x56] in /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:490
+    at ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches.RunDeferredAction(Action action, String label, Boolean timed, String categoryKey) [0x18] in /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:454
+    at ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches.RunLabelledDeferredAction(Action action, String profilerLabel, String categoryLabel, Boolean timed, String categoryKey) [0x6] in /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:430
+    at ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches+<ExecuteToExecuteWhenFinished>d__5.MoveNext() [0x595] in /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:372
+    at .Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1() [0xFFFFFFFF]
+    at .Verse.LongEventHandler.LongEventsUpdate_Patch1(Boolean& sceneChanged) [0xFFFFFFFF]
+    at .Verse.Root.Update_Patch3(Root this) [0xFFFFFFFF]
+    at .Verse.Root_Entry.Update_Patch3(Root_Entry this) [0xFFFFFFFF]
+    at .InvokeMessageMethod_Verse.Root_Entry.Update(Closure , Object ) [0xFFFFFFFF]
+    at Waylith.UnityCompat.UnityWorld.InvokeMessage(UnityComponentState component, UnityMessageType messageType) [0x2A]
+    at RimWorldWaylith.Bootstrap+<>c__DisplayClass23_0.<Initialize>b__3() [0x0]
+    at Waylith.EngineApplication.RunFrame(Single& lastTime) [0x4CA]
+    at Waylith.EngineApplication.RunFrames() [0x8]
+    at Waylith.EngineApplication.RunLoop() [0x96]
+    at Waylith.EngineApplication.Run(EngineApplicationOptions options, Action`1 initialize) [0xBB]
+    at RimWorldWaylith.Program.Main(String[] args) [0x20E]
